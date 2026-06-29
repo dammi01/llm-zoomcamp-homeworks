@@ -11,3 +11,7 @@ This repository contains my practical implementations and homework solutions for
 ## Key Technical Solutions
 * **IPv4 Network Binding:** Configured `httpx.HTTPTransport` with explicit `local_address="0.0.0.0"` to bypass local IPv6 routing constraints.
 * **Token Tracking:** Leveraged native `response.usage_metadata.prompt_token_count` to audit exact prompt payload costs.
+
+## Structure
+- `01-intro/`: Homework pipeline using minsearch, Docker, and function-calling.
+- `02-vector-search/`: Notebook and scripts for local ONNX embeddings, matrix similarity calculations, and hybrid search (RRF).

@@ -223,3 +223,11 @@ __pycache__/
 *.env
 .ipynb_checkpoints/
 
+
+# Ignore heavy ONNX model weights
+**/02-vector-search/models/
+
+# Ignore temporary untracked notebooks
+**/02-vector-search/Untitled.ipynb
+**/.ipynb_checkpoints/
+
